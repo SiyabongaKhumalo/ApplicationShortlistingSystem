@@ -5,6 +5,6 @@ import com.applicatiosShortlistingApp.applicationsShortlistingProject.Entities.A
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-@Repository
+@Repositoryg
 public interface ApplicationRepository extends JpaRepository<Application, Integer> {
 }
